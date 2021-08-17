@@ -34,12 +34,5 @@ All kinds of feedback and contributions are welcome.
 
 ## Change Log
 
-### 0.1.2
-- fix minor error in test and example code
-
-### 0.1.1
-- Change host to github for better community issue tracking and documentation, functionally the same as previous version
-- gitlab will be used as a mirror
-
 ### 0.1.0
 - debut code
