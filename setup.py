@@ -12,23 +12,21 @@ setuptools.setup(
     description="This package is a fork of the DFRobot_PH package, modified for python3 and packaged for pip",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/moha7108/RPi_control_center",
+    url="https://github.com/moha7108/DFRobot_PH",
     project_urls={
-        "Bug Tracker": "https://github.com/moha7108/RPi_control_center/issues",
-        "Github": "https://github.com/moha7108/RPi_control_center",
-        "GitLab[Source]":"https://gitlab.com/moha7108/rpi-control-center"
+        "Bug Tracker": "https://github.com/moha7108/DFRobot_PH/issues",
+        "Github": "https://github.com/moha7108/DFRobot_PH",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)",
         "Operating System :: POSIX :: Linux",
         "Development Status :: 3 - Alpha",
     ],
-    license='GNU GPLv3',
-    packages=['rpi_control_center'],
-    python_requires=">=3.6",
+    license='GNU LGPL-2.1',
+    packages=['DFRobot'],
+    python_requires=">=2",
     install_requires=[
-          'logzero',
-          'RPi.GPIO'
+          'smbus'
       ]
 )
