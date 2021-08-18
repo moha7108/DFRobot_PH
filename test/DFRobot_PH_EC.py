@@ -31,5 +31,5 @@ while True :
 	#Convert voltage to EC with temperature compensation
 	EC = ec.readEC(adc0['r'],temperature)
 	PH = ph.readPH(adc1['r'],temperature)
-	print "Temperature:%.1f ^C EC:%.2f ms/cm PH:%.2f " %(temperature,EC,PH)
+	print("Temperature:%.1f ^C EC:%.2f ms/cm PH:%.2f " %(temperature,EC,PH))
 	time.sleep(1.0)

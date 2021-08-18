@@ -6,16 +6,17 @@ This package is a fork of the DFRobot_PH package, modified for python3 and packa
 
 - pip
 ```shell
-pip install rpi_control_center
+pip install DFRobot_EC_PH_ADC
 ```
 - source
 ```shell
-git clone https://gitlab.com/moha7108/rpi-control-center
+git clone https://github.com/moha7108/DFRobot_PH
 ```
 
 ## Example Usage
 
 ```python
+from DFRobot import DFR
 
 ```
 
