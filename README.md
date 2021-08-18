@@ -6,7 +6,7 @@ This package is a fork of the DFRobot_PH package, modified for python3 and packa
 
 - pip
 ```shell
-pip install DFRobot_EC_PH_ADC
+pip install DFRobot-EC-PH-ADC
 ```
 - source
 ```shell
@@ -34,6 +34,9 @@ All kinds of feedback and contributions are welcome.
   - [GitLab](https://gitlab.com/moha7108/), [Github](https://github.com/moha7108/), [Twitter](https://twitter.com/moha7108)
 
 ## Change Log
+
+### 0.1.1
+-
 
 ### 0.1.0
 - debut code
