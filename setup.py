@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="DFRobot_EC_PH_ADC",
     keywords = 'Raspberry Pi, Raspi, Python, GPIO, PH, EC, DFRobot, Gravity, Sensor',
-    version="0.1.0",
+    version="0.1.1",
     author="Mohamed Debbagh",
     author_email="moha7108@protonmail.com",
     description="This package is a fork of the DFRobot_PH package, modified for python3 and packaged for pip",

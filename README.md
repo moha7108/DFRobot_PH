@@ -36,7 +36,7 @@ All kinds of feedback and contributions are welcome.
 ## Change Log
 
 ### 0.1.1
--
+- fix readme with proper pip installation statement
 
 ### 0.1.0
 - debut code
