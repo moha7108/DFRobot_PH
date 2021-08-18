@@ -16,7 +16,7 @@ git clone https://github.com/moha7108/DFRobot_PH
 ## Example Usage
 
 ```python
-from DFRobot import DFR
+from DFRobot import DFR_EC, DFR_PH, DFR_ADS1115
 
 ```
 
